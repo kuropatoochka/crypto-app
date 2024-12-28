@@ -1,6 +1,6 @@
 import './styles.css'
-import chevronDown from 'C:/Users/valya/WebstormProjects/CryptoApp/CryptoApp/src/img/chevronLeftDown.svg'
-import chevronUp from 'C:/Users/valya/WebstormProjects/CryptoApp/CryptoApp/src/img/chevronRightUp.svg'
+import chevronDown from '../../img/chevronLeftDown.svg'
+import chevronUp from '../../img/chevronRightUp.svg'
 import {useContext} from "react";
 import {CoinsContext} from "../../context/coinsContext.jsx";
 
