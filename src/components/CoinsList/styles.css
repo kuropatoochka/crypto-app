@@ -1,0 +1,41 @@
+.coins-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coins-item {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: inherit;
+    box-shadow: inset 0 0 0 3000px rgb(255, 255, 255, 0.3);
+}
+
+.coins-item__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.coins-item__logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.coins-item__price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.change-icon {
+    width: 15px;
+}

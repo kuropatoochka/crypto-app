@@ -1,0 +1,45 @@
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__body {
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color: #1d1d1d;
+    color: #d8e2fb;
+}
+.card__balance {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.card__balance_value {
+    grid-column: 1;
+}
+
+.card__balance_change {
+    text-align: end;
+    border: none;
+    background-color: transparent;
+    color: #d8e2fb;
+    font-size: 16px;
+}
+
+.card__button {
+    padding: 10px;
+    background-color: #d8e2fb;
+    border: 2px dashed #b4bed7;
+    border-radius: 25px;
+    transition: all 0.3s ease-out;
+}
+.card__button:hover {
+    border: 2px solid #b4bed7;
+    background-color: #b4bed7;
+}

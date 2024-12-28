@@ -1,0 +1,9 @@
+.filter-block {
+    width: 300px;
+}
+
+.input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+}
